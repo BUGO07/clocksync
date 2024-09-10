@@ -6,9 +6,11 @@ Note - the arguments are not necessary, the timeserver defaults to time.windows.
 
 ### Linux
 
-./clocksync-linux-x86-64 --server \<timeserver> --zone \<timezone>
+sudo ./clocksync-linux-x86-64 --server \<timeserver> --zone \<timezone>
 
 ### Windows
+
+You need to run this with administrator permissions.
 
 clocksync-windows-x86-64.exe --server \<timeserver> --zone \<timezone>
 
